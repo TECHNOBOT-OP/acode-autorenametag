@@ -1,16 +1,16 @@
 {
-  "id": "acode.plugin",
-  "name": "Plugin",
-  "main": "dist/main.js",
+  "id": "techno.autorenametag",
+  "name": "Auto Rename Tag",
+  "main": "./dist/main.js",
   "version": "1.0.0",
   "readme": "readme.md",
   "icon": "icon.png",
   "files": [],
-  "minVersionCode" : 290,
+  "minVersionCode" : 330,
   "price": 0,
   "author": {
-    "name": "",
-    "email": "",
-    "github": ""
+    "name": "TechnoBoy",
+    "email": "116170524+TECHNOBOT-OP@users.noreply.github.com",
+    "github": "https://github.com/TECHNOBOT-OP"
   }
 }
