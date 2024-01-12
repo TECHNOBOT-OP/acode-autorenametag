@@ -1,10 +1,14 @@
 {
-  "name": "acode-plugin",
-  "version": "1.0.2",
-  "description": "Template for Acode plugin",
+  "name": "acode-autorenametag",
+  "version": "1.0.0",
+  "description": "Auto Rename Tag Plugin for Acode",
   "main": "dist/main.js",
-  "repository": "https://github.com/deadlyjack/acode-plugin.git",
-  "author": "Ajit <me@ajitkumar.dev>",
+  "repository": "https://github.com/TECHNOBOT-OP/acode-autorenametag.git",
+  "author": {
+    "name": "TechnoBoy",
+    "email": "116170524+TECHNOBOT-OP@users.noreply.github.com",
+    "github": "https://github.com/TECHNOBOT-OP"
+  },
   "license": "MIT",
   "dependencies": {
     "html-tag-js": "^1.1.41"
