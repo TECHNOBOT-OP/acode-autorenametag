@@ -12,23 +12,13 @@ Auto Rename Tag is a plugin for Acode that automatically renames HTML tags, enha
 
 ## Features
 
-- Automatic renaming of HTML tags.
+- Automatic renaming of HTML/XML tags.
 - Improved productivity by minimizing manual tag renaming.
 
-## Upcoming
-- Automatically rename open tag on modifying close tag
-
-## Installation
-
-1. Ensure you have Acode installed on your device.
-2. Open Acode and navigate to **Settings > Plugins**.
-3. Click on the "+" icon to add a new plugin.
-4. Select the **LOCAL** option and choose the downloaded Auto Rename Tag plugin folder.
 
 ## Usage
 
 1. Once installed, the plugin will automatically rename closing tags when opening tags are modified.
-2. Ensure your opened file is an HTML or EJS file for the plugin to work.
 
 ## Contribution
 
