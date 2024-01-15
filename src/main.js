@@ -165,15 +165,15 @@ class TechnoART {
 
 
 if (window.acode) {
-  const technoPlugin = new TechnoART();
   acode.setPluginInit(plugin.id, async (baseUrl, $page, { cacheFileUrl, cacheFile }) => {
     if (!baseUrl.endsWith('/')) {
       baseUrl += '/';
     }
+    var technoPlugin = new TechnoART();
     technoPlugin.baseUrl = baseUrl;
     await technoPlugin.init();
   });
   acode.setPluginUnmount(plugin.id, () => {
-    acodePlugin.destroy();
+    technoPlugin.destroy();
   });
 }
