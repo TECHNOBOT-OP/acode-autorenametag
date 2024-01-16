@@ -2,11 +2,11 @@
   "id": "techno.autorenametag",
   "name": "Auto Rename Tag",
   "main": "./dist/main.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "readme": "readme.md",
   "icon": "icon.png",
   "files": [],
-  "minVersionCode" : 330,
+  "minVersionCode" : 290,
   "price": 0,
   "author": {
     "name": "TechnoBoy",
