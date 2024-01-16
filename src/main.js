@@ -2,11 +2,12 @@ import plugin from "../plugin.json"
 
 const selectInstance = { i: false, tag: null };
 const editor = editorManager.editor;
-const session = editor.session;
+let session;
 const gti = ace.require("ace/token_iterator").TokenIterator;
 let ti;
 
 function handle(e) {
+    session = editor.session;
     const c = session.getValue();
     const cp = editor.getCursorPosition();
     const mainRow = c.split("\n")[e.start.row];
